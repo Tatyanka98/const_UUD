@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/reg.css')}}">
+</head>
+<body>
+    <div class="reg_form">
+        <div class="logo_box">
+            <a href="main">
+                <img  src="/static/imgs/1.png" width="42px" alt="">
+            <p>TaLenIvAndr</p>
+            </a>
+            
+        </div>
+        <h1 class="reg_text">Регистрация</h1>
+        <form method="post" class="form_login">
+            <input type="text" placeholder="Придумайте логин">
+            <input type="text" placeholder="Придумайте пароль">
+            <input type="text" placeholder="Повторите пароль">
+            <p>Уже есть аккаунт? <a href="">Войти</a></p>
+            <input type="submit" value="Зарегистрироваться">
+        </form>
+    </div>
+</body>
+</html>
